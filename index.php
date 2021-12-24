@@ -4,5 +4,6 @@ $userPw = $_GET['password'];
 if($userId == null || $userPw == null)
 echo "error: invalid-data";
 else
-echo uniqid();
+$id = uniqid() + uniqid();
+echo $id;
 ?>
