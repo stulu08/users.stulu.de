@@ -2,11 +2,7 @@
 $userId = $_GET['user'];
 $userPw = $_GET['password'];
 if($userId == null || $userPw == null) {
-if($userId == null)
-echo "user invalid\r\n";
-if($userPw == null)
-echo "password in invalid\r\n";
-}
+echo "error: invalid-data";
 else
-echo "session-id=67382827367483";
+echo "session-id: 67382827367483";
 ?>
