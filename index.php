@@ -5,7 +5,7 @@ if($userId == null || $userPw == null) {
 if($userId == null)
 echo "user invalid";
 if($userPw == null)
-echo "password in invalid:;
+echo "password in invalid";
 }
 else
 echo "session-id=67382827367483";
