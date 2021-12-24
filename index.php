@@ -3,7 +3,7 @@ $userId = $_GET['user'];
 $userPw = $_GET['password'];
 if($userId == null || $userPw == null) {
 if($userId == null)
-echo "user invalid";
+echo "user invalid\\n";
 if($userPw == null)
 echo "password in invalid";
 }
